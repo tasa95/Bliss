@@ -1,0 +1,71 @@
+BLISS 2013;;;;;navigateurs;Commentaire;
+;;;;;Firefox :;" plusieurs input pas assez grand : manque de lisibilité des accents  lors de la modification et de l'ajout
+""NetworkError: 404 Not Found - http://127.0.0.1/Bliss/assets/images/forward_disabled.png""
+forwar...led.png
+""NetworkError: 404 Not Found - http://127.0.0.1/Bliss/assets/images/sort_asc.png""
+sort_asc.png
+""NetworkError: 404 Not Found - http://127.0.0.1/Bliss/assets/images/back_disabled.png""
+back_disabled.png
+""NetworkError: 404 Not Found - http://127.0.0.1/Bliss/assets/images/sort_both.png""";
+;;;;;;;
+;;;;;;;
+Connexion;;;;;;;
+Prénom;nom;login;mdp;mdp(md5);Résultats;Commentaire;Modifications
+Rété;titi;titi;titi;5d933eef19aee7da192608de61b6c23d;;accents ok;
+Séverine;Rutulo;Séverine;root;63a9f0ea7bb98050796b649e85481845;;"marche pas chez moi : requête ok 
+sur phpmyadmin mais ne retourne aucun tuple dans le script";
+root;root;é&*^^;;d41d8cd98f00b204e9800998ecf8427e;;;
+root;root;;;d41d8cd98f00b204e9800998ecf8427e;;;
+;;;;;;;
+Administrateurs;;;;;;;
+Affichage loguer;;;;;;;
+affichage non loguer;;;;;;;
+Créer un utilisateur;;;;;;Change les minuscule en majuscule;
+ajout utilisateur;;;;;;marche pas avec les accents;
+;;;;;;;
+ajout utilisateur;nom;Prénom;login;mdp;Résultats;Commentaire;
+;opé -> OPÉ;opé -> OPÉ;opé -> OPÉ;nantes;;;
+;LOPÈZ;GRATIS;RATATA;ratata;;;
+;ALLARD SAINT ALBIN;THIERRY;TOUFFU;vodkasanté;;;
+modification;;;;;;"changement en majuscule dès qu'on écris
+accents non géré dans les formulaires lors de la récéption des donnés";
+;nom;Prénom;login;mdp;Résultats;Commentaire;
+;root;root;é&*^^;;;é&*^^  ----> ?&*^^;
+changement en;root;root;gloria;gloria;;;
+changement en;éroot;root;gloria;gloria;;accents;
+;rété;titi;titi;titi;;affichage de : Modifier un utilisateur - R?t? titi ;
+;;;;;;;
+Delete;nom;Prénom;login;mdp;Résultats;Commentaire;
+;root;root;;d41d8cd98f00b204e9800998ecf8427e;;;
+;;;;;;;
+Supervision du parc;;;;;;;
+ajout d'une salle;nom;;;;Résultats;Commentaire;
+;salée;;;;;;
+;salle1;;;;;;
+;salle-02;;;;;;
+;salle_02;;;;;;
+;salle 04;;;;;;
+modification;nom;;;;Résultats;Commentaire : penser a changer le logo d'édition des machines dans la salle et l'édition de la salle ;
+;salle1 -> salle125;;;;;;
+;salle125 -> salle 125;;;;;;
+;salle125->sallé;;;;;;
+;salle125->sall_125;;;;;;
+Gestion du parc;;;;;;;
+ajout d'une machine;nom;IP;salle d'affectation;;Résultats;Commentaire :;
+;ordi1;127.0.0.1;aucune;;;;
+;ordi_1;127.0.0.1;aucune;;;;
+;probléme;127.0.0.1;aucune;;;;
+;ordi2;1270.0.0.1;salle125;;;;
+;ordi2;;salle125;;;;
+;;;salle125;;;;
+;ordi 3;1270.0.0.1;salle125;;;;
+modification d'une machine;nom;IP;salle d'affectation;;Résultats;Commentaire :;
+;ordi1 -> ordé;127.0.0.1;aucune;;;;
+;ordi1 ;127.0.0.1;aucune -> salles125;;;;
+;ordi1 ;127.0.0.1 -> 127.999.0.0.1;aucune -> salles125;;;;
+;ordi1 ;127.0.0.1 -> 127.999.0.0.1;salles125;;;;
+;;;;;;;
+delete;nom;IP;salle d'affectation;;Résultats;Commentaire :;
+;tapas;95.22.110.50;salle125;;;"Not Found
+
+The requested URL /Bliss/views/ordiView.php was not found on this server.";

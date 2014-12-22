@@ -1,0 +1,145 @@
+@CHARSET "US-ASCII";
+
+body {
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+}
+
+body,#interface {
+	min-height: 1080px;
+}
+
+#interface {
+	padding: 2em;
+}
+
+form {
+	margin-bottom: 4em !important;
+}
+
+.adminAccess {
+	width: 20%;
+	background-color: #F4F4F4;
+}
+
+.dataTables_length select {
+	width: 60px !important;
+}
+
+input:not ([type="button"] ) {
+	height: 25px !important;
+}
+
+.inputLogin {
+	width: 100px !important;
+	height: 20px !important;
+}
+
+.myLabel {
+	float: left;
+	color: white;
+	margin-right: 15px;
+	padding: 10px 15px
+}
+
+.navbar-form .myLabel {
+	margin-bottom: 0px;
+}
+
+.myLabel .span2 {
+	margin-top: 0px;
+	max-width: 100px;
+}
+
+#interface {
+	margin: auto;
+	width: 1080px;
+	background-color: white;
+}
+
+#interface h1 {
+	margin: 0px;
+}
+
+.navbar#menu {
+	margin-bottom: 0px;
+}
+
+.btn-hide {
+	display: none !important;
+}
+
+.btn_tab {
+	margin-left: 10px;
+}
+
+#delete-success {
+	margin-bottom: 10px;
+}
+
+#footer {
+	height: 100px;
+	background-color: #1b1b1b;
+	border-color: #252525;
+	border: 5px solid;
+}
+
+.createurs h5,.liens h5 {
+	margin-top: 0;
+}
+
+.liens {
+	float: right;
+	margin: 0;
+	margin-right: 15%;
+	line-height: 35%;
+}
+
+.createurs {
+	width: 20%;
+	margin: 0;
+	float: left;
+	margin-left: 15%;
+	line-height: 50%;
+}
+
+#footer p {
+	color: grey;
+}
+
+#footer strong {
+	color: white;
+}
+
+#footer a {
+	color: grey !important;
+}
+
+#footer a:hover {
+	color: white !important;
+	text-decoration: none
+}
+
+.enoncer {
+	float: left;
+	width: 30%;
+	margin-top: 3%;
+	text-align: center;
+
+}
+
+.modal {
+	left:0!important;
+	top:20%!important;
+	width:65%!important;
+	margin-left:17.5%!important;
+}
+
+.modal p {
+	font-size:12px;
+	text-align:left;
+}
+
+input {
+height : 25px !important;
+}

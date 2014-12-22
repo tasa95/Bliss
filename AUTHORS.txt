@@ -1,0 +1,26 @@
+________MEMBRES DU GROUPE_____________
+
+ALLARD SAINT ALBIN Thierry
+LEWIS Arnaud
+RUTULO Séverine
+
+_______________________________________
+
+ALLARD SAINT ALBIN Thierry:
+- Création du module de connexion
+- Création de la barre menu
+- Création de la vue machines 
+- Création de l'agent python
+
+RUTULO Séverinee:
+- La vue salles.php
+- Le footer
+- Requêtes SQL
+- Classes métiers
+
+LEWIS Arnaud:
+-Création des controleurs
+-Gestion des routes
+-Vues Users/Incidents/etats
+-création des scripts de vérification javascript
+-création du script de traitement des infos reçues par l'agent

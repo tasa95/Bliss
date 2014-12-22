@@ -1,0 +1,31 @@
+ - authentification
+
+ - gestion des admins
+	-> ajout
+	-> suppression
+ 
+ - Gestion des salles
+	->Ajout d'une salle
+	-> modification de la salle (description par exemple)
+	-> suppression d'une salle
+	
+ - Gestion des machines
+	- Ajout d'une machine dans une salle
+	- modification d'une machine (affectation de salle, description etc)
+	- suppression d'une machine
+	- référencer la machine comme non affectée en cas de suppression de la salle à laquelle elle est rattachée
+	- controle d'état des machines par l'agent
+	
+ - Gestion des incidents
+ 	-> Générer un incident dans le cas ou le serveur detecte que l'agent est tombé
+ 	-> Générer un incident dans le cas ou l'agent génère lui meme l'incident
+
+
+QUESTION EN SUSPENS: 
+
+	Qu'en est-il des agents? Documentation, script c# etc
+	Comment met-on en place l'écran de supervision? tableaux? graphique?
+		-> Je propose une présentation en tableau avec la liste des salles
+			Quand on clique sur la salle un menu deroulant apparait avec les machines
+			Possibilité d'ajouter une machine à la volée dans des input faisant partie du menu déroulant qui présente la liste des machines
+			

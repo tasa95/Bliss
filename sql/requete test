@@ -1,0 +1,89 @@
+USER
+select * from users;
+
+UPDATE users
+SET    nom       =  "NOM"
+       prenom    =  "PRENOM"
+       login     =  "toto"
+       password  =  "uty"
+WHERE id_user = 1
+
+
+INSERT INTO users ('nom', 'prenom', 'login', 'password')
+       VALUES   ('nom', 'prenom', 'tata', 'tonton')
+       
+
+DELETE FROM users 
+WHERE id_user = "1"
+
+ETAT
+					select * from etats;
+
+					UPDATE etats
+					SET    description  =  "DESCRIPTION"
+					WHERE id_etat = 2
+					
+				    INSERT INTO etats ('description')
+     			    VALUES  ('description')
+     			    
+     			    DELETE FROM etats
+     			    WHERE id_etat = 2
+
+INCIDENT
+	select * from incidents;
+
+UPDATE incidents
+SET    id_etat        = "4"
+	   id_machine     = "5"
+	   date_ouverture = "6"
+	   date_cloture   = "7"
+WHERE id_incident = 3
+
+INSERT INTO incidents ('id_etat', 'id_machine', 'date_ouverture', 'date_cloture')
+       VALUES ('4', '5', '6', '7')
+
+DELETE FROM incidents
+WHERE id_incident = 3
+
+MACHINE
+					select * from machines;
+
+					UPDATE machines
+					SET    ip_machine  =  "9"
+						   nom_machine =  "NOM"
+					WHERE id_machine = 8
+					
+					INSERT INTO machines ('ip_machine', 'nom_machine')
+     			    VALUES ('9', 'nom')
+     			    
+     			    DELETE FROM machines
+     			    WHERE id_machine = 8
+
+MACHINE SALLE
+select * from machineSalle;
+UPDATE machineSalle
+SET    id_machine  =  "11"
+       id_salle    =  "12"
+WHERE id_machineSalle = 10
+
+INSERT INTO machineSalle ('id_machine', 'id_salle')
+       VALUES ('11', '12')
+       
+DELETE FROM machineSalle
+WHERE id_machineSalle = 10
+
+SALLE
+					select * from salles;
+					UPDATE salles
+					SET    nom_salles  =  "NOM"
+					WHERE id_salle = 13
+					
+					INSERT INTO salles ('nom_salles')
+   				    VALUES ('nom')
+   				    
+   				    DELETE FROM salles
+   				    WHERE id_salle = 13
+
+
+
+
